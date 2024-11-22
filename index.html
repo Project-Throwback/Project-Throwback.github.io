@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project Throwback</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <style>
+    
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        body {
+            font-family: 'Orbitron', sans-serif;
+            background: linear-gradient(to bottom right, #1a73e8, #88d7f7);
+            color: white;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+
+        .container {
+            text-align: center;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        header h1 {
+            font-size: 4rem;
+            margin-bottom: 10px;
+            font-weight: bold;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+        }
+
+        header p {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+        }
+
+
+        .banner-img {
+            width: 100%;
+            height: auto;
+            max-height: 400px;
+            object-fit: cover;
+            margin-bottom: 30px;
+        }
+
+
+        .description h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+        }
+
+        .description p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+        }
+
+
+        .button-container {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+
+        .action-btn {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: white;
+            background: rgba(255, 255, 255, 0.2);
+            border: 2px solid #1a73e8;
+            padding: 15px 30px;
+            width: 250px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-transform: uppercase;
+            border-radius: 5px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .action-btn:hover {
+            background: rgba(255, 255, 255, 0.5);
+            transform: scale(1.05);
+        }
+
+        .action-btn:active {
+            transform: scale(1);
+        }
+
+  
+        footer {
+            margin-top: 40px;
+            font-size: 1rem;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+        }
+
+    
+        @media (max-width: 768px) {
+            .button-container {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            header h1 {
+                font-size: 3rem;
+            }
+
+            .description p {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Project Throwback</h1>
+            <p>Bringing back the old Fortnite experience in 2024-2025!</p>
+        </header>
+
+        <section class="banner">
+            <img src="image.png" alt="Project Throwback Banner" class="banner-img">
+        </section>
+
+        <section class="description">
+            <h2>Welcome to Project Throwback</h2>
+            <p>
+                Project Throwback is dedicated to reviving the classic Fortnite experience from the early days.
+                In 2024-2025, we're bringing back iconic features, old maps, and the community-driven spirit that made Fortnite the game we all loved. Whether you're here to relive the nostalgia or experience Fortnite like never before, we have something for everyone.
+            </p>
+            <p>
+                Join us on Discord to stay updated, meet fellow fans, and even get involved in community events and tournaments. We're committed to making this a place for Fortnite fans to come together and enjoy the original magic of the game, with modern-day improvements to enhance your experience.
+            </p>
+        </section>
+
+        <div class="button-container">
+            <button class="action-btn" onclick="window.location.href='https://discord.gg/VpTEcwv2z5'">Start Playing</button>
+            <button class="action-btn" onclick="window.location.href='https://discord.gg/VpTEcwv2z5'">Download</button>
+            <button class="action-btn" onclick="window.location.href='https://discord.gg/VpTEcwv2z5'">Community</button>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Project Throwback. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
